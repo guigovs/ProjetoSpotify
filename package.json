@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mongodb": "^6.14.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd back-end && node --watch ./api/server.js",
+    "frontend": "cd front-end && npm run dev"
+  }
+}
