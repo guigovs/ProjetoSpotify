@@ -34,7 +34,7 @@ npm install
 ### **3️⃣ Criar o Arquivo de Configuração**
 Na pasta `back-end/`, crie um arquivo `config.js` e adicione as credenciais do banco de dados:
 ```javascript
-export const MONGO_URI = 'mongodb+srv://guilherme:agwWMHupN9j1AnWU@cluster0.nym2r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+export const MONGO_URI = "mongodb+srv://usuario:senha@cluster.mongodb.net/spotifyHashtag";
 export const PORT = 3000;
 ```
 
